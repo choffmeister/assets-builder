@@ -1,0 +1,14 @@
+{
+  "name": "assets-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf build/ && mkdir -p build/ && cp src/index.js build/index.js && node index.js && node build/index.js && node other.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.6"
+  }
+}
